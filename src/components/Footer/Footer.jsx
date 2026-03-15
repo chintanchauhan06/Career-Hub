@@ -116,7 +116,7 @@ const Footer = () => {
               <h3 className="flex items-center mb-2">
                 <span className="mr-2"> <MdOutlineEmail /> </span>
                 Email:
-                <p className="mx-3 text-gray-400">careerhub1212@gmail.com</p>
+                <p className="mx-3 text-gray-400">Seekify@gmail.com</p>
               </h3>
 
               <h3 className="flex items-center">
@@ -133,7 +133,7 @@ const Footer = () => {
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2024{" "}
               <a href="/" className="hover:underline">
-                Career Hub
+                Seekify
               </a>
               . All Rights Reserved.
             </span>

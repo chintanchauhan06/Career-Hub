@@ -1,22 +1,23 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
-import Home from './pages/Home'
+
+import Home from './pages/Home.jsx'
 import './App.css';
-import Login from './pages/Login';
-import Signup from './pages/Signup';
-import JOB from "./pages/job_Post";
-import Contact from "./pages/contact";
-import About from "./pages/about";
-import Jobform from "./pages/PostForm";
-import Blog from "./pages/blog";
-import JobApplicationForm from './components/JobApplicationForm/JobApplicationForm';
-import OpenRoute from './components/core/OpenRoute';
+import Login from './pages/Login.jsx';
+import Signup from './pages/Signup.jsx';
+import JOB from "./pages/job_Post.jsx";
+import Contact from "./pages/contact.jsx";
+import About from "./pages/about.jsx";
+import Jobform from "./pages/PostForm.jsx";
+import Blog from "./pages/blog.jsx";
+import JobApplicationForm from './components/JobApplicationForm/JobApplicationForm.jsx';
+import OpenRoute from './components/core/OpenRoute.jsx';
 import Error from './components/core/Error.jsx';
 import VerifyEmail from './components/core/VerifyEmail.jsx'
 import UpdatePassword from './components/core/UpdatePassword.jsx'
 import ForgotPassword from './components/core/ForgotPassword.jsx'
 import MyProfile from './components/core/MyProfile.jsx'
-import Settings from './Settings'
+import Settings from './Settings/index.jsx'
 import PrivateRoute from "./operations/Auth/PrivateRoute.jsx"
 import Dashboard from "./pages/Dashboard.jsx"
 import Myjobs from "./dashboard/MyJob.jsx"
@@ -26,6 +27,7 @@ function App() {
   return (
       <Routes>
         <Route path="/" element={<Home />} />
+        
         <Route path='/login' element={<Login />} />
         <Route path='/Signup' element={<Signup />} />
         <Route path='/job' element={<JOB />} />

@@ -69,7 +69,7 @@ exports.mailsend = (
     
     <body>
         <div className="container">
-          <h2 classname="text-blue-900 bg-white p-1 rounded-lg">Career Hub</h2>
+          <h2 classname="text-blue-900 bg-white p-1 rounded-lg">Seekify</h2>
             <div className="message">you have new job application</div>
             <div className="body">
                 <p> ${fullName} has shawn interest in the job you posted.</p>

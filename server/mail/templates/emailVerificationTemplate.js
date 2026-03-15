@@ -66,7 +66,7 @@ const otpTemplate = (otp) => {
 	
 	<body>
 		<div className="container">
-			            <h2 classname="text-blue-900 bg-white p-1 rounded-lg">Career Hub</h2>
+			            <h2 classname="text-blue-900 bg-white p-1 rounded-lg">Seekify</h2>
 
 			<div className="message">OTP Verification Email</div>
 			<div className="body">

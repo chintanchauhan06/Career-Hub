@@ -188,50 +188,6 @@ const JobPost = () => {
 
         
 
-        <div className="bg-white rounded-lg shadow-md p-6 border-gray-300 border-2 mb-8">
-          <div className="flex flex-wrap items-center lg:gap-8">
-            <h2 className="text-lg font-bold mb-4">Filters:</h2>
-           <div className="lg:flex gap-4">
-            <Dropdown
-                label={
-                  <div className="flex items-center">
-                    Role
-                    <AiOutlineCaretDown className="ml-1 text-sm text-richblack-100" />
-                  </div>
-              }
-              options={["All", ...filterOptions.roles]}
-              selectedOptions={filters.role}
-              onChange={(value) => handleFilterChange("role", value)}
-              defaultSelected="All"
-            />
-            <Dropdown
-             label={
-                  <div className="flex items-center">
-                   Location
-                    <AiOutlineCaretDown className="ml-1 text-sm text-richblack-100" />
-                  </div>
-              }
-              options={["All", ...filterOptions.locations]}
-              selectedOptions={filters.location}
-              onChange={(value) => handleFilterChange("location", value)}
-              defaultSelected="All"
-            />
-            <Dropdown
-           label={
-                  <div className="flex items-center">
-                   Salary
-                    <AiOutlineCaretDown className="ml-1 text-sm text-richblack-100" />
-                  </div>
-              }
-              options={["All", ...filterOptions.salaries]}
-              selectedOptions={filters.salary}
-              onChange={(value) => handleFilterChange("salary", value)}
-              defaultSelected="All"
-            />
-            </div>
-          </div>
-        </div>
-
         <p className="text-center mb-4 font-semibold text-gray-700">Total Jobs: {filteredJobs.length}</p>
 
         <div className="grid grid-cols-1 md:grid-cols-[1fr_600px] gap-8">

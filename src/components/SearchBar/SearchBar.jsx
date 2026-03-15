@@ -2,7 +2,7 @@ import { Input, Button } from "reactstrap";
 import { IoLocationOutline, IoSearchSharp } from "react-icons/io5";
 import React, { useState } from 'react';
 
-export default function Searchbar({ onSearch }) {
+ function SearchBar({ onSearch }) {
   const [title, setTitle] = useState("");
   const [location, setLocation] = useState("");
 
@@ -38,3 +38,5 @@ export default function Searchbar({ onSearch }) {
     </div>
   );
 }
+
+export default SearchBar

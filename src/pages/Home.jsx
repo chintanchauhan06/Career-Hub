@@ -8,12 +8,15 @@ import ServiceGrid from './ServiceGrid.jsx';
 import Testimonials from '../components/Testimonials/Testimonials.jsx';
 import Newsletter from './Newsletter.jsx';
 import Content from './content.jsx';
+import SearchBar from '../components/SearchBar/SearchBar';
+
 
 
 const Home = () => {
   return (
     <div className='overflow-x-hidden  text-white h-dvh w-dvw '>
       <Header />
+      <SearchBar/>
       <Main />
       <Steps />
       <Content />

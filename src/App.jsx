@@ -23,13 +23,14 @@ import Dashboard from "./pages/Dashboard.jsx"
 import Myjobs from "./dashboard/MyJob.jsx"
 import EditJob from "./EditJob/index.jsx"
 
+
 function App() {
   return (
       <Routes>
         <Route path="/" element={<Home />} />
         
         <Route path='/login' element={<Login />} />
-        <Route path='/Signup' element={<Signup />} />
+        <Route path='/signup' element={<Signup />} />
         <Route path='/job' element={<JOB />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />

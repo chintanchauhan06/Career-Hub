@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Mainimg from "../assets/bgmain.svg";
 import Counts from "../components/Counts/Counts"
 import { useSelector } from 'react-redux';
+import SearchBar from '../components/SearchBar/SearchBar';
 
 
 const main = () => {
@@ -40,7 +41,7 @@ const main = () => {
       ) : null}
          <button className='  bg-blue-900 hover:bg-[#e7f3ff] hover:text-blue-900 duration-200 font-semibold rounded-md p-2 px-4 text-xl' type="button" ><Link to="/job"> Explore Job</Link></button>
          </div>
-         <SearchBar />
+         <SearchBar/>
       
       </div>
       <div className="lg:w-1/2 pt-16 flex flex-col lg:space-y-4 lg:-ml-20 -mt-5">
